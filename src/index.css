@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 /* base styles */
 * {
   margin: 0;
@@ -105,11 +111,11 @@ span {
   text-align: left;
   display: block;
 }
-.create h2 {
+/* .create h2 {
   font-size: 20px;
   color: #007fff;
   margin-bottom: 30px;
-}
+} */
 .create input,
 .create textarea,
 .create select {
