@@ -11,6 +11,12 @@
       "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted while trying to focus",
       "author": "Kayla",
       "id": "2"
+    },
+    {
+      "id": "5225",
+      "title": "Intro to react",
+      "body": "<p><span style=\"color: rgb(51, 51, 51);\">During my internship at Pamital, I collaborated closely with the design team to implement dynamic UI components using ReactJs and Tailwind CSS, contributing significantly to improved user experiences. This experience, coupled with my proficiency in JavaScript, ReactJs, NextJS, and Typescript, has equipped me with a valuable skill set that I am eager to apply in a software testing role.</span></p>",
+      "author": "Lesley"
     }
   ]
 }
