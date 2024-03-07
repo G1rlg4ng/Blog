@@ -4,6 +4,7 @@ import Create from './Create';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -21,7 +22,10 @@ function App() {
           </Route>
           <Route path="/blogs/:id">
             <BlogDetails/>
-          </Route>
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
           <Route path='*'>
             <NotFound/>
           </Route>
