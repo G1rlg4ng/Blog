@@ -9,22 +9,18 @@ const Navbar = () => {
         Content<span>Verse</span>
       </h1>
       <ul className="flex gap-5">
-        <li className="bg-blue-500 text-white rounded-[10px] px-5 py-2 ">
+        <li className="cursor-pointer text-lg text-blue-500">
           <Link to="/">Home</Link>
         </li>
-        {login ? (
-          <li className="bg-blue-500 text-white rounded-[10px] px-5 py-2 flex-shrink-0">
-            <Link to="/create">New Blog</Link>
-          </li>
-        ) : (
-          ""
-        )}
-        <button
-          onClick={() => setLogin(!login)}
-          className="bg-blue-500 text-white rounded-[10px] px-5 py-2 flex-shrink-0"
-        >
-          Login
-        </button>
+        <li className="cursor-pointer text-lg text-blue-500">
+          <Link to="/create">New Blog</Link>
+        </li>
+        <li className="cursor-pointer text-lg text-blue-500">
+          <Link to="/login">Login</Link>
+        </li>
+        <li className="cursor-pointer text-lg text-blue-500">
+          <Link to="/signup">Signup</Link>
+        </li>
       </ul>
     </nav>
   );
